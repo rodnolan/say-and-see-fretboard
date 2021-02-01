@@ -1,0 +1,73 @@
+body {
+  margin: 0px;
+  padding: 0px;
+}
+#wrapper {
+  height: 100vh;
+  width: 100vw;
+}
+
+h1 {
+  text-align: center;
+}
+
+#commandLog {
+  width: 90%;
+  min-width: 200px; 
+  height: 100%; 
+  border: 10px solid black;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+#everythingElse {
+  display: flex; 
+  margin: 10px;
+}
+
+#everythingElse > div {
+  flex-basis: 50%
+}
+
+#voiceCommandsListContainer {
+  height: 100%;
+  /* display: flex;
+  flex-wrap: wrap; */
+}
+
+#voiceCommandsList > div {
+  padding: 2px;
+}
+
+.valuesContainer > span {
+  padding: 5px;
+}
+.valuesContainer > span:hover {
+  /* border: 1px solid green; */
+  background-color: cyan;
+}
+
+#stateMonitor > p {
+  padding-left: 10px;
+}
+
+.disabled {
+  color: lightgrey;
+}
+
+span {
+  padding: 2px;
+}
+
+.commandCategoryTitle {
+  color:darkblue;
+  margin-top: 10px;
+  font-size: 1.5rem;
+  background-color: cadetblue;
+  border-bottom: 2px solid red;
+}
+
+.stateValues {
+  color: lightyellow;
+}
